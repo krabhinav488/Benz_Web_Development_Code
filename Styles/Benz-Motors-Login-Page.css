@@ -1,0 +1,315 @@
+body {
+  background-color: black;
+}
+.benz-logo {
+  height: 350px;
+  width: 350px;
+  border-radius: 175px;
+  object-fit: cover;
+  animation: animation1 6s ease 0s 1 normal forwards;
+  margin-left: 600px;
+  margin-top: 152px;
+}
+.benz-logo:hover {
+  cursor: pointer;
+}
+@keyframes animation1 {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+  70% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  90% {
+    transform: translateX(480px);
+  }
+  100% {
+    transform: translateX(480px);
+  }
+}
+.login-box {
+  background-color: rgb(42, 42, 42);
+  height: 640px;
+  width: 500px;
+  border-radius: 20px;
+  margin-top: -480px;
+  margin-left: 1000px;
+  box-shadow: 6px 6px 7px white;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  animation: animation2 5s ease 3s 1 normal forwards;
+  opacity: 0;
+}
+@keyframes animation2 {
+  0% {
+    transform: translateZ(0px);
+  }
+  50% {
+    transform: translateX(-510px);
+    opacity: 1;
+    z-index: 100;
+  }
+  100% {
+    transform: translateX(-510px);
+    opacity: 1;
+    z-index: 100;
+  }
+}
+.profile {
+  background-color: black;
+  height: 170px;
+  width: 170px;
+  border-radius: 85px;
+  margin-left: 165px;
+  position: relative;
+  box-shadow: 4px 4px 3px white;
+}
+.profile:hover {
+  cursor: pointer;
+}
+.profile-logo-container {
+  position: absolute;
+  top: 27px;
+  left: 23px;
+}
+.profile-logo-container i {
+  color: white;
+  font-size: 100px;
+}
+.username-input-container,
+.password-input-container {
+  margin-top: 30px;
+  position: relative;
+}
+.username-text,
+.password-text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+  margin-left: 25px;
+}
+.username-input,
+.password-input {
+  padding: 17px 180px 14px 45px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-top: 6px;
+  background-color: black;
+  border: 0;
+  outline: none;
+  color: white;
+  box-shadow: 4px 4px 3px white;
+  margin-left: 22px;
+  margin-top: 10px;
+}
+.username-input:hover,
+.password-input:hover {
+  cursor: pointer;
+}
+.username-input-icon-container i,
+.password-input-icon-container i {
+  font-size: 24px;
+}
+.username-input-icon-container ,
+.password-input-icon-container {
+  position: absolute;
+  top: 46px;
+  left: 29px;
+  color: white;
+}
+.remember-me-forgot-password-container {
+  display: flex;
+  margin-top: 30px;
+}
+.remember-me-container {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 25px;
+  font-size: 15px;
+  color: white;
+}
+.remember-me-container:hover {
+  cursor: pointer;
+}
+.remember-me-container input {
+  height: 12px;
+}
+.remember-me-container input:hover {
+  cursor: pointer;
+}
+.forgot-password-container {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 196px;
+  font-size: 15px;
+  color: white;
+}
+.forgot-password-container:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-underline-offset: 5px;
+}
+.login-button {
+  margin-left: 160px;
+  margin-top: 18px;
+  padding: 15px 65px;
+  border-radius: 30px;
+  font-size: 21px;
+  font-weight: 600;
+  background-color: black;
+  border: 0;
+  color: white;
+  box-shadow: 4px 4px 3px white;
+}
+.login-button:hover {
+  cursor: pointer;
+  scale: 1.2;
+  transition: all 1s;
+}
+.create-account-container {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  position: absolute;
+  margin-left: 24px;
+  color: white;
+  margin-left: 120px;
+  margin-top: 30px;
+  display: flex;
+}
+.create-account {
+  margin-left: 5px;
+}
+.create-account:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-underline-offset: 5px;
+}
+.social-media-icons-container {
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-between;
+  width: 400px;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+.youtube-icon-container,
+.instagram-icon-container,
+.linkedin-icon-container,
+.facebook-icon-container,
+.whatsapp-icon-container,
+.twitter-x-icon-container {
+  height: 52px;
+  width: 52px;
+  border-radius: 26px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  box-shadow: 4px 4px 3px white;
+  text-decoration: none;
+}
+.youtube-icon-container:hover,
+.instagram-icon-container:hover,
+.linkedin-icon-container:hover,
+.facebook-icon-container:hover,
+.whatsapp-icon-container:hover,
+.twitter-x-icon-container:hover {
+  cursor: pointer;
+}
+.youtube-icon-container:hover {
+  color: red;
+  scale: 1.2;
+  transition: all 1s;
+  box-shadow: 4px 4px 3px red;
+}
+.instagram-icon-container:hover {
+  color: rgb(212, 12, 205);
+  scale: 1.2;
+  transition: all 1s;
+  box-shadow: 4px 4px 3px rgb(212, 12, 205);
+}
+.linkedin-icon-container:hover {
+  color: #0a66c2;
+  scale: 1.2;
+  transition: all 1s;
+  box-shadow: 4px 4px 3px #0a66c2;
+}
+.facebook-icon-container:hover {
+  color: #3b5998;
+  scale: 1.2;
+  transition: all 1s;
+  box-shadow: 4px 4px 3px #3b5998;
+}
+.whatsapp-icon-container:hover {
+  color: rgb(6, 222, 6);
+  scale: 1.2;
+  transition: all 1s;
+  box-shadow: 4px 4px 3px rgb(6, 222, 6);
+}
+.twitter-x-icon-container:hover {
+  background-color: white;
+  color: black;
+  scale: 1.2;
+  transition: all 1s;
+  box-shadow: 4px 4px 3px black;
+}
+.social-media-icons-container a {
+  text-decoration: none;
+}
+.login-page-text-container {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 290px;
+  left: 40px;
+  color: white;
+}
+@keyframes animation3 {
+  0% {
+   opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.login-page-text-line-1 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-left: 52px;
+  opacity: 0;
+  animation: animation3 3s ease 5s 1 normal forwards;
+}
+.login-page-text-line-2 {
+  font-size: 35px;
+  font-weight: 600;
+  opacity: 0;
+  animation: animation3 3s ease 5s 1 normal forwards;
+}
+.login-page-text-line-3 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-left: 17px;
+  opacity: 0;
+  animation: animation3 3s ease 5s 1 normal forwards;
+}
+.benz-title-container {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+  top: 520px;
+  right: 138px;
+  opacity: 0;
+  animation: animation3 3s ease 5s 1 normal forwards;
+}
